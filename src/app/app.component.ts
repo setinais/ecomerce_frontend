@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import 'src/assets/js/main22.js';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +6,7 @@ import 'src/assets/js/main22.js';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ecommerce';
+
+
 }
 

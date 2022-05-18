@@ -6,7 +6,7 @@
 */
 import GLightbox from '../vendor/glightbox/js/glightbox.min.js';
 import AOS from 'src/assets/vendor/aos/aos.js';
-import 'src/assets/vendor/purecounter/purecounter.js';
+// import 'src/assets/vendor/purecounter/purecounter.js';
 import Swiper from 'src/assets/vendor/swiper/swiper-bundle.min.js';
 import Isotope from 'src/assets/vendor/isotope-layout/isotope.pkgd.min.js';
 
@@ -40,7 +40,7 @@ import Isotope from 'src/assets/vendor/isotope-layout/isotope.pkgd.min.js';
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -122,13 +122,13 @@ import Isotope from 'src/assets/vendor/isotope-layout/isotope.pkgd.min.js';
     /**
      * Mobile nav toggle
      */
-  
+
     on('click', '.mobile-nav-toggle', function(e) {
       select('#navbar').classList.toggle('navbar-mobile')
       this.classList.toggle('bi-list')
       this.classList.toggle('bi-x')
     })
-  
+
     /**
      * Mobile nav dropdowns activate
      */
@@ -200,7 +200,7 @@ import Isotope from 'src/assets/vendor/isotope-layout/isotope.pkgd.min.js';
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate portfolio lightbox
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
@@ -250,7 +250,7 @@ import Isotope from 'src/assets/vendor/isotope-layout/isotope.pkgd.min.js';
       }
     }
   });
-  
+
   /**
    * Animation on scroll
    */
